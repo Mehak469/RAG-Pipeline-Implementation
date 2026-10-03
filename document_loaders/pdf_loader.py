@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import PyPDFLoader
 
 
-loader= PyPDFLoader(f"./data/FYP.pdf")
+loader= PyPDFLoader(f"./data/CA.pdf")
 
 
 docs=loader.load()

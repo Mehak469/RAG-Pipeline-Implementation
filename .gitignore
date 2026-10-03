@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.evn
+
+# Local Vector Databases (including typos)
+**/chroma_db/
+**/chorma_db/
+*.sqlite3
+*.bin
+
+# Local Sample Data
+data/
+document_loaders/data/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store

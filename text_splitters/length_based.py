@@ -41,7 +41,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import CharacterTextSplitter
 
 
-loader=PyPDFLoader(f"D://UPSkilling//RAG//document_loaders//data//FYP.pdf")
+loader=PyPDFLoader(f"D://UPSkilling//RAG//document_loaders//data//CA.pdf")
 
 docs=loader.load()
 
